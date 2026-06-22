@@ -1,3 +1,7 @@
 <Solution>
+  <Project Path="ProjectManagementSystem.Application/ProjectManagementSystem.Application.csproj" Id="80ded109-bcb4-4bdf-a194-1e9b0d2247c4" />
+  <Project Path="ProjectManagementSystem.Domain/ProjectManagementSystem.Domain.csproj" Id="7e75f622-7f28-4ae9-bc38-c33c704387cf" />
+  <Project Path="ProjectManagementSystem.Infrastructure/ProjectManagementSystem.Infrastructure.csproj" Id="0591b168-7c8a-4623-980b-0f423ad71045" />
+  <Project Path="ProjectManagementSystem.Persistence/ProjectManagementSystem.Persistence.csproj" Id="ac552809-3e71-4b29-9b3e-7fdf3934c91c" />
   <Project Path="ProjectManagementSystem/ProjectManagementSystem.csproj" />
 </Solution>
