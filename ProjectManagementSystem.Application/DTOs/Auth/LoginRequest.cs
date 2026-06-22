@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectManagementSystem.Application.DTOs.Auth
+namespace ProjectManagementSystem.Application.DTOs.Auth;
+
+public class LoginRequest
 {
-    internal class LoginRequest
-    {
-    }
+    public string Email { get; set; } = string.Empty;
+
+    public string Password { get; set; } = string.Empty;
 }

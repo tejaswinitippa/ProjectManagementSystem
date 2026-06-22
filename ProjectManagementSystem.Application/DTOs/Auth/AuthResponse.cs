@@ -4,9 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ProjectManagementSystem.Application.DTOs.Auth
+namespace ProjectManagementSystem.Application.DTOs.Auth;
+
+public class AuthResponse
 {
-    internal class AuthResponse
-    {
-    }
+    public string Token { get; set; } = string.Empty;
+
+    public string Email { get; set; } = string.Empty;
+
+    public string Role { get; set; } = string.Empty;
 }
